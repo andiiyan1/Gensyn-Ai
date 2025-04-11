@@ -50,8 +50,6 @@ cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/and
 
 6. **Run the swarm**
 ```bash
- python3 -m venv .venv
- source .venv/bin/activate
  ./run_rl_swarm.sh
 ```
  - It will ask some questions, you should send response properly
